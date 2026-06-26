@@ -48,7 +48,7 @@ minecart.magFilter = THREE.NearestFilter;
  */
 // const geometry = new THREE.BoxGeometry(1, 1, 1);
 const geometry = new THREE.TorusGeometry(1, 0.35, 32, 100);
-const material = new THREE.MeshBasicMaterial({ map: minecart });
+const material = new THREE.MeshBasicMaterial({ color: 0xff0000, });
 const mesh = new THREE.Mesh(geometry, material);
 scene.add(mesh);
 
